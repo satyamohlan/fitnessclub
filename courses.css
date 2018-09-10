@@ -1,0 +1,32 @@
+.courser{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom:  20px;
+    grid-gap: 100px;
+    /* width: 100vw; */
+}
+.courses{background-color: white;display:  grid;grid-template-rows: 3fr 2fr;}
+.info h3{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight:100;
+}
+.buy{display:  grid;grid-template-columns:  1fr 1fr;}
+.info{
+    display:grid;
+    grid-row-gap: 20px;
+}
+.buy h3{
+    font-size:25px;
+}
+.buy button{
+    background-color:#F44336;
+    border:none;
+    margin-bottom: 10px;
+    height: 35px;
+    color:  white;
+    font-size: 15px;
+    width:  150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
